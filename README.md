@@ -4,7 +4,7 @@ Traduzione amatoriale e non ufficiale in italiano di *Trails of Cold Steel III*
 per PC, fatta da fan, senza legami con Nihon Falcom o NIS America.
 **Serve una copia originale del gioco.**
 
-**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.09.27.zip`, 30,5 MB.
+**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.14.zip`, 30,8 MB.
 
 ## Prima di tutto: come è stata fatta
 
