@@ -42,7 +42,7 @@ coda e i nomi restano come sono.
 - Windows 10 o 11.
 
 Versione Steam: i file del testo sono gli stessi di GOG, l'eseguibile
-(`bind\ed8_3_PC.exe`) no. L'installazione lo lascia com'è e installa tutto
+(`bin\x64\ed8_3_PC.exe`) no. L'installazione lo lascia com'è e installa tutto
 il resto; l'unica differenza è che nel menu dell'equipaggiamento le sigle sotto
 l'arma restano in francese (PUI, POR…).
 
