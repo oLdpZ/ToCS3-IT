@@ -4,7 +4,7 @@ Traduzione amatoriale e non ufficiale in italiano di *Trails of Cold Steel III*
 per PC, fatta da fan, senza legami con Nihon Falcom o NIS America.
 **Serve una copia originale del gioco.**
 
-**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.14.zip`, 30,8 MB.
+**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.19.zip`, 30,8 MB.
 
 ## Prima di tutto: come è stata fatta
 
@@ -38,12 +38,17 @@ coda e i nomi restano come sono.
 
 ## Requisiti
 
-- *Trails of Cold Steel III* per PC, **versione GOG** (build 1189175006);
+- *Trails of Cold Steel III* per PC, **versione GOG** (build 1189175006) o **Steam**;
 - Windows 10 o 11.
 
-La versione Steam non è stata provata. L'installazione controlla ogni file
-prima di toccarlo: se il gioco non è la versione attesa, si ferma senza
-modificare niente e dice quali file non corrispondono.
+Versione Steam: i file del testo sono gli stessi di GOG, l'eseguibile
+(`bind\ed8_3_PC.exe`) no. L'installazione lo lascia com'è e installa tutto
+il resto; l'unica differenza è che nel menu dell'equipaggiamento le sigle sotto
+l'arma restano in francese (PUI, POR…).
+
+L'installazione controlla ogni file prima di toccarlo: se il gioco non è la
+versione attesa, si ferma senza modificare niente e dice quali file non
+corrispondono.
 
 ## Installazione
 
