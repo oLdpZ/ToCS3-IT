@@ -4,7 +4,8 @@ Traduzione amatoriale e non ufficiale in italiano di *Trails of Cold Steel III*
 per PC, fatta da fan, senza legami con Nihon Falcom o NIS America.
 **Serve una copia originale del gioco.**
 
-**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.20.zip`, 62,6 MB.
+**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.20b.zip`, 62,3 MB.
+Novità: **Steam Deck e Linux** (sperimentale, vedi sotto).
 
 ## Prima di tutto: come è stata fatta
 
@@ -39,7 +40,7 @@ coda e i nomi restano come sono.
 ## Requisiti
 
 - *Trails of Cold Steel III* per PC, **versione GOG** (build 1189175006) o **Steam**;
-- Windows 10 o 11.
+- Windows 10 o 11, oppure **Steam Deck / Linux** (vedi sotto).
 
 Versione Steam: i file del testo sono gli stessi di GOG, l'eseguibile
 (`bin\x64\ed8_3_PC.exe`) no. L'installazione lo lascia com'è e installa tutto
@@ -72,7 +73,31 @@ indietro. Chiudi il gioco prima di installare o rimuovere.
 La traduzione occupa lo spazio della lingua francese: con la traduzione
 installata il francese non è disponibile.
 
+## Steam Deck e Linux (sperimentale)
+
+Sotto Proton il gioco è lo stesso di Windows: cambia solo il modo di
+installare la traduzione. **Non ancora provata su uno Steam Deck vero**
+(provata su Linux): se la provi, dimmi com'è andata.
+
+1. Tasto Steam › Alimentazione › «Passa al desktop».
+2. Scarica lo zip; in Steam, clic destro sul gioco › Gestisci › «Sfoglia i
+   file locali», metti lo zip in quella cartella ed estrailo lì (clic
+   destro › Estrai › Estrai qui). Deve risultare `ToCS3-IT/INSTALLA.sh`
+   accanto alle cartelle `bin` e `data`.
+3. Doppio clic su `ToCS3-IT/INSTALLA.sh` › «Esegui». Si aprono delle
+   finestre: conferma, barra di avanzamento, esito; se c'è un lettore video,
+   parte anche la sigla del gioco.
+4. Torna alla modalità gioco e scegli l'italiano come sopra.
+
+Se il doppio clic apre il file come testo: clic destro › Proprietà ›
+Permessi › «È eseguibile», oppure F4 nella cartella e `bash INSTALLA.sh`.
+Per rimuovere: `DISINSTALLA.sh`. Serve solo il Python che SteamOS ha già.
+Se Steam aggiorna o verifica i file del gioco, la traduzione va rimessa.
+
 ## Aggiornare da una versione precedente
+
+Su Windows, chi ha già la 2026.10.20 non deve aggiornare: la traduzione è la
+stessa.
 
 1. Fai doppio clic su `DISINSTALLA.bat` della versione **vecchia** e aspetta
    «Fatto: … file riportati all'originale.».
@@ -98,11 +123,12 @@ Il pacchetto **non contiene file del gioco**, ma solo le differenze (patch in
 formato VCDIFF) fra i file originali e quelli tradotti. Vengono applicate con
 [xdelta3](https://github.com/jmacd/xdelta) 3.2.0 di Joshua MacDonald,
 distribuito secondo la licenza Apache 2.0 (`file\LICENSE-xdelta3.txt`).
+Su Linux le applica `file/linux.py`, in Python, senza xdelta3.
 Anche la sigla che si vede durante l'installazione viene letta dalla tua copia
 del gioco.
 
 Impronta SHA-256 dello zip:
-`3667751f7625df5f3d0456b98680881f4c73c87360eccff1806285c8e56b98b2`
+`e80e7ac952db9c1b52fe1450a76e473121039827f7742fd1d6da5d2758e88219`
 
 ## Segnalazioni e crediti
 
