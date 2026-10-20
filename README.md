@@ -4,7 +4,7 @@ Traduzione amatoriale e non ufficiale in italiano di *Trails of Cold Steel III*
 per PC, fatta da fan, senza legami con Nihon Falcom o NIS America.
 **Serve una copia originale del gioco.**
 
-**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.19.zip`, 30,8 MB.
+**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.20.zip`, 62,6 MB.
 
 ## Prima di tutto: come è stata fatta
 
@@ -43,8 +43,9 @@ coda e i nomi restano come sono.
 
 Versione Steam: i file del testo sono gli stessi di GOG, l'eseguibile
 (`bin\x64\ed8_3_PC.exe`) no. L'installazione lo lascia com'è e installa tutto
-il resto; l'unica differenza è che nel menu dell'equipaggiamento le sigle sotto
-l'arma restano in francese (PUI, POR…).
+il resto; le uniche differenze sono che nel menu dell'equipaggiamento le sigle
+sotto l'arma restano in francese (PUI, POR…) e che nel menu del titolo resta
+«Quitter le jeu.» al posto di «Esci dal gioco.».
 
 L'installazione controlla ogni file prima di toccarlo: se il gioco non è la
 versione attesa, si ferma senza modificare niente e dice quali file non
@@ -70,6 +71,16 @@ indietro. Chiudi il gioco prima di installare o rimuovere.
 
 La traduzione occupa lo spazio della lingua francese: con la traduzione
 installata il francese non è disponibile.
+
+## Aggiornare da una versione precedente
+
+1. Fai doppio clic su `DISINSTALLA.bat` della versione **vecchia** e aspetta
+   «Fatto: … file riportati all'originale.».
+2. Solo dopo, cancella la vecchia cartella `ToCS3-IT`.
+3. Estrai la versione nuova e fai doppio clic su `INSTALLA.bat`.
+
+Estrarre la nuova sopra la vecchia non basta: l'installazione trova i file
+della traduzione vecchia, non quelli originali, e si ferma senza toccare niente.
 
 ## Rimozione
 
