@@ -4,7 +4,7 @@ Traduzione amatoriale e non ufficiale in italiano di *Trails of Cold Steel III*
 per PC, fatta da fan, senza legami con Nihon Falcom o NIS America.
 **Serve una copia originale del gioco.**
 
-**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.10.20b.zip`, 62,3 MB.
+**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.11.04.zip`, 62,4 MB.
 Novità: **Steam Deck e Linux** (sperimentale, vedi sotto).
 
 ## Prima di tutto: come è stata fatta
@@ -96,8 +96,8 @@ Se Steam aggiorna o verifica i file del gioco, la traduzione va rimessa.
 
 ## Aggiornare da una versione precedente
 
-Su Windows, chi ha già la 2026.10.20 non deve aggiornare: la traduzione è la
-stessa.
+La 2026.11.04 corregge un crash al negozio di scambio (oggetti con
+Materiali U) e gli oggetti rimasti in francese su Steam: conviene aggiornare.
 
 1. Fai doppio clic su `DISINSTALLA.bat` della versione **vecchia** e aspetta
    «Fatto: … file riportati all'originale.».
@@ -128,7 +128,7 @@ Anche la sigla che si vede durante l'installazione viene letta dalla tua copia
 del gioco.
 
 Impronta SHA-256 dello zip:
-`e80e7ac952db9c1b52fe1450a76e473121039827f7742fd1d6da5d2758e88219`
+`c8a9d65cb1cde786a2047ad8fbf893f55b127c999efd88e47f428c22e559ae76`
 
 ## Segnalazioni e crediti
 
