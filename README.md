@@ -4,7 +4,7 @@ Traduzione amatoriale e non ufficiale in italiano di *Trails of Cold Steel III*
 per PC, fatta da fan, senza legami con Nihon Falcom o NIS America.
 **Serve una copia originale del gioco.**
 
-**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.11.06.zip`, 70,7 MB.
+**[Scarica l'ultima versione](../../releases/latest)** — `ToCS3-IT-2026.11.07.zip`, 71,2 MB.
 Novità: **Steam Deck e Linux** (sperimentale, vedi sotto).
 
 ## Prima di tutto: come è stata fatta
@@ -29,7 +29,8 @@ segnalazioni sono benvenute (vedi in fondo).
 - tutti i testi del gioco: dialoghi, storia, missioni, menu, oggetti, abilità,
   libri e giornali, tutorial;
 - le scritte ridisegnate nelle immagini: menu, cartelli dei capitoli, mappe,
-  didascalie di apertura delle scene, schede di luoghi e personaggi;
+  didascalie di apertura delle scene, schede di luoghi e personaggi,
+  il calendario che si sfoglia, le scritte che compaiono in battaglia;
 - la frase d'apertura del prologo e la scena dopo i titoli di coda, impresse
   nei filmati.
 
@@ -45,7 +46,8 @@ coda e i nomi restano come sono.
 Versione Steam: i file del testo sono gli stessi di GOG, l'eseguibile
 (`bin\x64\ed8_3_PC.exe`) no. L'installazione lo lascia com'è e installa tutto
 il resto; le uniche differenze sono che nel menu dell'equipaggiamento le sigle
-sotto l'arma restano in francese (PUI, POR…) e che nel menu del titolo resta
+sotto l'arma restano in francese (PUI, POR…), come le scritte che compaiono
+in battaglia (COUP CRITIQUE, MANQUÉ…), e che nel menu del titolo resta
 «Quitter le jeu.» al posto di «Esci dal gioco.».
 
 L'installazione controlla ogni file prima di toccarlo: se il gioco non è la
@@ -96,8 +98,9 @@ Se Steam aggiorna o verifica i file del gioco, la traduzione va rimessa.
 
 ## Aggiornare da una versione precedente
 
-La 2026.11.06 traduce le schede che presentano luoghi e personaggi (erano
-immagini col testo francese). La 2026.11.04 aveva corretto un crash al
+La 2026.11.07 traduce il calendario che si sfoglia quando passa un giorno e
+le scritte di battaglia (critico, mancato, potenziamenti). La 2026.11.06
+aveva tradotto le schede che presentano luoghi e personaggi. La 2026.11.04 aveva corretto un crash al
 negozio di scambio e gli oggetti in francese su Steam: conviene aggiornare.
 
 1. Fai doppio clic su `DISINSTALLA.bat` della versione **vecchia** e aspetta
@@ -129,7 +132,7 @@ Anche la sigla che si vede durante l'installazione viene letta dalla tua copia
 del gioco.
 
 Impronta SHA-256 dello zip:
-`d80ae74d7835ca51e406dd2a147a30c3cad2be3673825d9cdb238104de15d59d`
+`cc5e157fae018a7a62b965ba943c8160982f0fd8b6f7427c4c483506fe930871`
 
 ## Segnalazioni e crediti
 
